@@ -1,5 +1,236 @@
 * {
-    padding: 0;
+    padding: 0%;
     margin: 0;
     box-sizing: border-box;
+}
+
+img { max-width: 100%; }
+
+[class*=grid] {margin:0;}
+[class*="col-"], [class*="col_"], [class~="col"] {padding: 0;}
+
+html {scroll-behavior: smooth;}
+
+/* Utility Classes */
+.padded-xs {padding: 1%;}
+.padded-sm {padding: 2%}
+.padded {padding: 5%}
+.padded-1 {padding: 1rem;}
+.padded-2  {padding: 2rem;}
+
+.padded-text {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1,4rem;
+}
+
+.margin-0 {margin-bottom: 0;}
+.margin-05{margin-bottom: 0.5rem;}
+.margin-1 {margin-bottom: 1rem;}
+.margin-2 {margin-bottom: 2rem;}
+
+.light {background-color: #ad9e9c;}
+
+/* Typography */
+body {
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+}
+
+.heading {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 12px;
+  font-size: 42px;
+  line-height: 1.3em;
+} 
+
+.right {text-align: right;}
+.center {text-align: center;}
+
+a:hover {color: #998685;}
+
+/* Background Image Styles */
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-color: #998685;
+  background-image: url(/images/restaurant.jpg);
+}
+
+.landscape {min-height: 100vh;}
+
+.bg-restaurant {background-image: url(/images/restaurant.jpg);}
+.bg-cateringhand {background-image: url(/images/cateringhand.jpg)}
+.bg-table {background-image: url(/images/table.jpg)}
+.bg-wein {background-image: url(/images/wein.jpg)}
+
+
+/* Logo */
+.bg-logo {
+  background-image: url(/images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1.5rem 5rem;
+}
+
+/* Navigatin Bar */
+.navigation {
+  position: fixed;
+  left: 25px;
+  top: 30px;
+  right: 25px;
+  background-color: #fff;
+  z-index: 201;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #60423e;
+  padding: 0.7rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav-highlight {
+  margin-left: 11px;
+  background-color: #ad9e9c;
+}
+
+.nav-highlight:hover {
+  margin-left: 11px;
+  background-color: #DAD3D3;
+}
+
+/* Burger Menu */
+.burger-menu {
+  display: flex;
+  position: fixed;
+  top: -100vh;
+  left:0;
+  right: 0;
+  bottom: 100vh;
+  text-align: center;
+  padding:10%;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 8;
+  transition:1s;
+  align-content:space-around;
+  justify-content:space-around;
+  flex-direction:column;
+  background-color: #fff
+}
+
+.burger-menu.active{
+  top:90px;
+  bottom:0;
+  left: 25px;
+  right: 25px;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #60423e;
+  display:block;
+  padding: 1.5vh 5%;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.burger-menu a:hover {
+  color: #998685;
+}
+
+/* Burger Button */
+.burger-button {
+  position:fixed;
+  top: 40px;
+  right: 20px;
+  z-index: 9;
+  padding: 8.5px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.burger-button span{
+  width: 40px;
+  border: 2px solid #60423e;
+  background-color: #60423e;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+
+.burger-button.active span{
+  border-color: #60423e;
+  background-color:#60423e;
+}
+
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+
+.burger-top{
+  top: -01px;
+}
+
+.burger-bottom{
+  bottom: -01px;
+}
+
+ .burger-button.active .burger-top{
+  position: absolute;
+  top: 8.5px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+
+  border-color: rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
+}
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8.5px;
+  transform: rotateZ(-45deg);
+}
+
+
+/* Slick Caroussel */
+.slider-container {padding: -0.1%;}
+
+.slider-item {display: none;}
+
+.slider-item:first-child {display: block;}
+
+.slick-next::before, .slick-prev::before {
+  font-family: slick;
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #fff;
+}
+
+.slick-prev {left: 2%;}
+.slick-next {right: 2%;}
+
+/* Responsive Design */
+ 
+.mob-show {display: none;}
+
+@media(max-width:48em) {
+    .mob-hide {display: none;}
+    .mob-show {display: block;}
+    .mob-padded-t-0 {padding-top:0;}
+
+    h1 {font-size: 6rem;}
+    h1 span {font-size: 2rem;}
+    footer a {font-size: 1rem;}
 }
