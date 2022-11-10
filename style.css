@@ -19,18 +19,23 @@ html {scroll-behavior: smooth;}
 .padded-2  {padding: 2rem;}
 
 .padded-text {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .margin-0 {margin-bottom: 0;}
 .margin-05{margin-bottom: 0.5rem;}
 .margin-1 {margin-bottom: 1rem;}
 .margin-2 {margin-bottom: 2rem;}
+.margin-l {margin-left: -2rem;}
+.margin-t {margin-top: 2rem;}
+.margin-b {margin-bottom: 2rem;}
+.margin-r {margin-right: 2rem;}
 
 .light {background-color: #ad9e9c;}
+.dark {background-color: #60423e;}
 
 /* Typography */
 body {
@@ -54,17 +59,34 @@ p {
   line-height: 1.3em;
 } 
 
+.light-text {color: #fff}
+
 .right {text-align: right;}
 .center {text-align: center;}
 
 a:hover {color: #998685;}
+
+
+.button-white {
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid white; 
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-weight: 400;
+  color: black
+}
+
+.button-white:hover {
+  background-color: #998685;
+  border: 2px solid #998685; 
+  color: black}
 
 /* Background Image Styles */
 .bg-image {
   background-size: cover;
   background-position: center;
   background-color: #998685;
-  background-image: url(/images/restaurant.jpg);
 }
 
 .landscape {min-height: 100vh;}
@@ -73,6 +95,7 @@ a:hover {color: #998685;}
 .bg-cateringhand {background-image: url(/images/cateringhand.jpg)}
 .bg-table {background-image: url(/images/table.jpg)}
 .bg-wein {background-image: url(/images/wein.jpg)}
+.bg-kueche {background-image: url(/images/restaurantkueche.jpg); min-height: 30vh;}
 
 
 /* Logo */
@@ -231,6 +254,13 @@ a:hover {color: #998685;}
 /* Responsive Design */
  
 .mob-show {display: none;}
+
+@media(max-width:64em) {
+.margin-l {margin-left: 0rem;}
+.margin-t {margin-top: 0rem;}
+.margin-b {margin-bottom: 0rem;}
+.margin-r {margin-right: 0rem;}
+}
 
 @media(max-width:48em) {
     .mob-hide {display: none;}
