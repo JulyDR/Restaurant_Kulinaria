@@ -12,7 +12,7 @@ img { max-width: 100%; }
 html {scroll-behavior: smooth;}
 
 /* Utility Classes */
-.padded-xs {padding: 1%;}
+.padded-xs {padding: 0.7%;}
 .padded-sm {padding: 2%}
 .padded {padding: 5%}
 .padded-1 {padding: 1rem;}
@@ -21,9 +21,8 @@ html {scroll-behavior: smooth;}
 .padded-text {
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  line-height: 1,4rem;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .margin-0 {margin-bottom: 0;}
@@ -38,6 +37,12 @@ body {
   font-family: Inter, sans-serif;
   font-size: 1rem;
   letter-spacing: -0.2px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 1.2rem;
 }
 
 .heading {
@@ -82,7 +87,7 @@ a:hover {color: #998685;}
 .navigation {
   position: fixed;
   left: 25px;
-  top: 30px;
+  top: 25px;
   right: 25px;
   background-color: #fff;
   z-index: 201;
@@ -213,10 +218,12 @@ a:hover {color: #998685;}
 .slick-next::before, .slick-prev::before {
   font-family: slick;
   font-size: 20px;
-  line-height: 1;
+  /* line-height: 1; */
   opacity: .75;
   color: #fff;
 }
+
+.slick-slide {margin-bottom: -0.3rem;}
 
 .slick-prev {left: 2%;}
 .slick-next {right: 2%;}
