@@ -15,6 +15,7 @@ html {scroll-behavior: smooth;}
 .padded-xs {padding: 0.7%;}
 .padded-sm {padding: 2%}
 .padded {padding: 5%}
+.padded-l {padding: 7%}
 .padded-1 {padding: 1rem;}
 .padded-2  {padding: 2rem;}
 
@@ -36,6 +37,8 @@ html {scroll-behavior: smooth;}
 
 .light {background-color: #ad9e9c;}
 .dark {background-color: #60423e;}
+
+.foreground {z-index:1;}
 
 /* Typography */
 body {
@@ -82,13 +85,34 @@ a:hover {color: #998685;}
   border: 2px solid #998685; 
   color: black}
 
+  .button-dark {
+    text-decoration: none;
+    background-color: #60423e;;
+    border: 2px solid #60423e;; 
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    font-weight: 400;
+    color: white
+  }
+
+  .button-dark:hover {
+    background-color: #998685;
+    border: 2px solid #998685; 
+    color: white}
+
 /* Background Image Styles */
 .bg-image {
   background-size: cover;
   background-position: center;
   background-color: #998685;
+  background-repeat: no-repeat;
 }
 
+.portrait-tall {padding-bottom: 175%;}
+.portrait {padding-bottom: 133%;}
+.square {padding-bottom: 100%;}
+.landscape-normal {padding-bottom: 66%;}
+.landscape-wide {padding-bottom: 56%;}
 .landscape {min-height: 100vh;}
 
 .bg-restaurant {background-image: url(/images/restaurant.jpg);}
@@ -96,7 +120,12 @@ a:hover {color: #998685;}
 .bg-table {background-image: url(/images/table.jpg)}
 .bg-wein {background-image: url(/images/wein.jpg)}
 .bg-kueche {background-image: url(/images/restaurantkueche.jpg); min-height: 30vh;}
+.bg-cateringtisch {background-image: url(/images/cateringtisch.jpg)}
+.bg-meal {background-image: url(/images/meal.jpg)}
+.bg-mealkartoffel {background-image: url(/images/mealkartoffel.jpg)}
+.bg-mealfleisch {background-image: url(/images/mealfleisch.jpg)}
 
+.gallery [class*="col-"] {padding: 0.2%;}
 
 /* Logo */
 .bg-logo {
@@ -270,4 +299,6 @@ a:hover {color: #998685;}
     h1 {font-size: 6rem;}
     h1 span {font-size: 2rem;}
     footer a {font-size: 1rem;}
+
+    .portrait {padding-bottom: 100%;}
 }
