@@ -62,6 +62,15 @@ p {
   line-height: 1.3em;
 } 
 
+.heading-bg {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 12px;
+  font-size: 60px;
+  line-height: 1.3em;
+} 
+
 .light-text {color: #fff}
 
 .right {text-align: right;}
@@ -260,6 +269,20 @@ a:hover {color: #998685;}
   bottom: 8.5px;
   transform: rotateZ(-45deg);
 }
+
+/* Filterable Menu */
+.filterable-menu .bg-image {padding-bottom: 100%;}
+.filterable-menu {  padding: 1rem;}
+.filterable-menu [class*=col] {  padding: 0.1rem;}
+.hidden { display: none; }
+
+/* Filter navigation */
+.menu-filter span {
+  text-transform: uppercase; 
+  padding: 0.2rem;
+}
+.menu-filter span:hover {cursor: pointer;}
+.menu-filter .active {color: red;}
 
 
 /* Slick Caroussel */
