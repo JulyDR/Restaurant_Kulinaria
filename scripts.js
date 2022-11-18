@@ -26,7 +26,7 @@ $('.slider-container').slick({
     
     // Remove class 'active' from any <span> that is currently active 
     $('#menu-filter .active').removeClass('active');
-      
+     
     // give this <span> that was clicked on a class of 'active' 
     $(this).addClass('active');
   
@@ -52,3 +52,14 @@ $('.slider-container').slick({
       }
     });
   });
+
+
+
+// Adds/removes 'active' class to selected item
+$('#menufilter span').first().addClass("active"); // Adds the 'active' class to the first anchor	
+$("#menufilter span").click(function(){
+    $(".active").removeClass("active");
+     $(this).addClass("active");
+  });
+
+$('span:contains("Speisen")').click();

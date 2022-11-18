@@ -239,46 +239,48 @@ bier:
             <!-- Show Speisen -->
             <div class="menu-item speisen grid">
                 <!-- Column 1 -->
-                <div class="col-6_sm-12">
+                <div class="col-5_sm-12">
                     <!-- Aperitif -->
-                    <h3> Aperitif</h3>
+                    <h3 class="heading-menu"> Aperitif</h3>
                     {% for item in page.aperitif %}
-                    <div class="editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.gericht}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}}</p>
                     </div>
                     {% endfor %}
-                
+              
                     <!-- Vorspeisen -->
-                    <h3> Vorspeisen</h3>
+                    <h3 class="heading-menu"> Vorspeisen</h3>
                     {% for item in page.vorspeisen %}
-                    <div class="col-10 editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.gericht}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}} </p>
                     </div>
                     {% endfor %}
-                </div>       
+                </div>    
+                
+                <div class="col-2_sm-0"></div>
 
                 <!-- Second colum -->
-                <div class="col-6_sm-12">
+                <div class="col-5_sm-12">
 
                     <!-- Hauptspeisen -->
-                    <h3> Hauptspeisen</h3>
+                    <h3 class="heading-menu"> Hauptspeisen</h3>
                     {% for item in page.hauptspeisen %}
-                    <div class="col-10 editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.gericht}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}} </p>
                     </div>                        
                     {% endfor %}
 
                     <!-- Dessert -->
-                    <h3> Dessert</h3>
+                    <h3 class="heading-menu"> Dessert</h3>
                     {% for item in page.dessert %}
-                    <div class="col-10 editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.gericht}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
                         <p class="small-text"> {{item.inhalte}} </p>
                         <p class="price"> {{item.preis}} </p>
                     </div>                            
@@ -289,62 +291,66 @@ bier:
             <!-- Show Steak -->
             <div class="menu-item premium-steak grid">
                 <!-- Column 1 -->
-                <div class="col-12">
+                <div class="col-6_sm-12">
                     <!-- Steak -->
-                    <h3> Steak</h3>
+                    <h3 class="heading-menu"> Steak</h3>
                     {% for item in page.steak %}
-                    <div class="editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.gericht}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}}</p>
                     </div>
                     {% endfor %}
                 </div>
+
+                <div class="col-6_sm-12"></div>
             </div>
 
             <!-- Show Wein -->
             <div class="menu-item wein grid">
             <!-- Column 1 -->
-                <div class="col-6_sm-12">
+                <div class="col-5_sm-12">
                     <!-- Weißwein -->
-                    <h3> Weißweine</h3>
+                    <h3 class="heading-menu"> Weißweine</h3>
                     {% for item in page.weisswein %}
-                    <div class="editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.name}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}}</p>
                     </div>
                     {% endfor %}
             
                     <!-- Rosewein -->
-                    <h3> Roseweine</h3>
+                    <h3 class="heading-menu"> Roseweine</h3>
                     {% for item in page.rosewein %}
-                    <div class="col-10 editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.name}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}} </p>
                     </div>                        
                     {% endfor %}
-                </div>       
-
+                </div> 
+                
+                <div class="col-2_sm-0"></div>
+               
             <!-- Second colum -->
-                <div class="col-6_sm-12">
+                <div class="col-5_sm-12">
 
                     <!-- Rotweine -->
-                    <h3> Rotweine</h3>
+                    <h3 class="heading-menu"> Rotweine</h3>
                     {% for item in page.rotwein %}
-                    <div class="col-10 editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.name}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}} </p>
                     </div>                        
                     {% endfor %}
 
-                    <!-- Dessert -->
-                    <h3> Sekt - Perlweine</h3>
+                    <!-- Sekt - Perlweine -->
+                    <h3 class="heading-menu"> Sekt - Perlweine</h3>
                     {% for item in page.sekt %}
-                    <div class="col-10 editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.name}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
                         <p class="small-text"> {{item.inhalte}} </p>
                         <p class="price"> {{item.preis}} </p>
                     </div>                            
@@ -355,27 +361,21 @@ bier:
             <!-- Show Bier -->
             <div class="menu-item bier grid">
                 <!-- Column 1 -->
-                <div class="col-12">
+                <div class="col-6_sm-12">
                     <!-- Biere -->
-                    <h3> Fränkische Bierspezialitäten</h3>
+                    <h3 class="heading-menu"> Fränkische Bierspezialitäten</h3>
                     {% for item in page.bier %}
-                    <div class="editable">
-                        <p class="margin-0 menu-margin menu-text"> {{item.name}} </p>
+                    <div class="editable p-menu">
+                        <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
                         <p class="small-text"> {{item.inhalte}}  </p>
                         <p class="price"> {{item.preis}}</p>
                     </div>
                     {% endfor %}
                 </div>
+                <div class="col-6_sm-12"></div>
             </div>        
         </div>
-
-
-       
-
-
-    
-
-
+      </div>   
 
     <!-------------------------Footer ---------------------------------------------------->
     <footer class="padded-text grid-spaceBetween">
