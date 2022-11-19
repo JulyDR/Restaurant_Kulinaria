@@ -37,6 +37,7 @@ html {scroll-behavior: smooth;}
 
 .light {background-color: #ad9e9c;}
 .dark {background-color: #60423e;}
+.white {background-color: #fff;}
 
 .foreground {z-index:1;}
 
@@ -136,6 +137,9 @@ a:hover {color: #998685;}
   background-repeat: no-repeat;
 }
 
+.bg-banner {
+  min-height: 40vh;}
+
 .portrait-tall {padding-bottom: 175%;}
 .portrait {padding-bottom: 133%;}
 .square {padding-bottom: 100%;}
@@ -152,6 +156,9 @@ a:hover {color: #998685;}
 .bg-meal {background-image: url(/images/meal.jpg)}
 .bg-mealkartoffel {background-image: url(/images/mealkartoffel.jpg)}
 .bg-mealfleisch {background-image: url(/images/mealfleisch.jpg)}
+.bg-wein1 {background-image: url(/images/wein-1.jpg)}
+.bg-wein2 {background-image: url(/images/wein-2.jpg)}
+.bg-wein3 {background-image: url(/images/wein-3.jpg)}
 
 .gallery [class*="col-"] {padding: 0.2%;}
 
