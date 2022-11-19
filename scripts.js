@@ -53,8 +53,6 @@ $('.slider-container').slick({
     });
   });
 
-
-
 // Adds/removes 'active' class to selected item
 $('#menufilter span').first().addClass("active"); // Adds the 'active' class to the first anchor	
 $("#menufilter span").click(function(){
@@ -63,3 +61,5 @@ $("#menufilter span").click(function(){
   });
 
 $('span:contains("Speisen")').click();
+
+

@@ -137,28 +137,34 @@ a:hover {color: #998685;}
   background-repeat: no-repeat;
 }
 
-.bg-banner {
-  min-height: 40vh;}
+.bg-banner {min-height: 40vh;}
+.position {background-position: 0px -620px;}
 
 .portrait-tall {padding-bottom: 175%;}
 .portrait {padding-bottom: 133%;}
 .square {padding-bottom: 100%;}
 .landscape-normal {padding-bottom: 66%;}
 .landscape-wide {padding-bottom: 56%;}
+.landscape-small {padding-bottom: 42%;}
 .landscape {min-height: 100vh;}
+.bg-padded {padding-bottom: 30%;}
 
 .bg-restaurant {background-image: url(/images/restaurant.jpg);}
-.bg-cateringhand {background-image: url(/images/cateringhand.jpg)}
 .bg-table {background-image: url(/images/table.jpg)}
-.bg-wein {background-image: url(/images/wein.jpg)}
 .bg-kueche {background-image: url(/images/restaurantkueche.jpg); min-height: 30vh;}
 .bg-cateringtisch {background-image: url(/images/cateringtisch.jpg)}
+.bg-cateringhand {background-image: url(/images/cateringhand.jpg)}
+.bg-catering {background-image: url(/images/catering.jpg)}
+.bg-catering1 {background-image: url(/images/catering-1.jpg)}
+.bg-catering2 {background-image: url(/images/catering-2.jpg)}
 .bg-meal {background-image: url(/images/meal.jpg)}
 .bg-mealkartoffel {background-image: url(/images/mealkartoffel.jpg)}
 .bg-mealfleisch {background-image: url(/images/mealfleisch.jpg)}
+.bg-wein {background-image: url(/images/wein.jpg)}
 .bg-wein1 {background-image: url(/images/wein-1.jpg)}
 .bg-wein2 {background-image: url(/images/wein-2.jpg)}
 .bg-wein3 {background-image: url(/images/wein-3.jpg)}
+.bg-map {background-image: url(/images/map.jpg)}
 
 .gallery [class*="col-"] {padding: 0.2%;}
 
