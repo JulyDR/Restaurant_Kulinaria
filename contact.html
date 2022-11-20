@@ -58,11 +58,99 @@
             </div>
         </div>
 
+        <!-- Burger Menu -->
         <div class="burger-menu">
                 <a href="/menu">Menü</a>
                 <a href="/wein">Wein für Daheim</a>
                 <a href="/catering">Catering</a>
                 <a href="/info">Öffnungszeiten & Anfahrt</a>
-                <a href="/contact.html" class="nav-highlight">Kontakt</a>
+                <a href="/contact.html" class="nav-highlight">Kontakt</a>?
         </div>
     </nav>
+
+    <!-- Welcome Banner -->
+    <div class="bg-image bg-banner bg-eingang position-2"></div>
+
+    <!-- Kontakt Section -->
+    <section class="grid padded-text light">
+        <div class="col-5_sm-12">
+            <h2 class="heading"> Kontakt. </h2>
+            <p class="margin-b"> Sie möchten einen Tisch reservieren oder haben eine Frage oder Anregungen, dann nutzen Sie einfach unser Kontaktformular. Wir werden uns dann so schnell wie möglich mit Ihnen in Verbindung setzen. </p>
+            <p> Wir freuen uns über Ihre Nachricht.</p>
+        </div>
+
+        <div class="col-1-sm-0"></div>
+
+        <div class="col-6_sm-12">
+            <form>
+                <div class="grid">
+                    <div class="col-6_sm-12 padded-r">
+                        <label for="_name"> Vorname </label>
+                         <input type="text" name="_name" id="_name" required/>
+                    </div>
+
+                    <div class="col-6_sm-12 padded-lf">
+                        <label for="_name"> Nachname </label>
+                        <input type="text" name="_name" id="_name" required/>
+                    </div>
+                </div>
+
+                <label for="_replyto"> Email </label>
+                <input type="email" name="_replyto" id="_replyto" required/>
+            
+                <label for="_phone-no"> Telefon </label>
+                <input type="tel" name="phone-no" id="_phone-no">
+                
+                <label for="message"> Nachricht </label>
+                <textarea name="message" id="message" placeholder="Meine Nachricht..." style="width:100%; height: 135px;"></textarea>
+
+                <label class="container"><p class="small">Ich akzeptiere die <a href="/datenschutz">Datenschutzbedingungen</a></p>
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <input type="submit" value="Absenden">
+
+                <p class="small margin-t">Natürlich können Sie uns auch telefonisch kontaktieren [(0157) 826 592 20].</p>
+            </form>
+        </div>
+    </section>
+
+    <!-------------------------Footer ---------------------------------------------------->
+    <footer class="padded-text grid-spaceBetween">
+        <div class="col-6">
+            <div class="col-3 padded-xs">
+                <div class="bg-logo"></div>
+            </div>
+            <p class="margin-1 small">Tel:(0157) 826 592 20 <br>Hauptstraße. 29a | 56410 Hundsangen</p>
+            <p class="small">© Kulinaria - Copyright 2022. <br>Design + Built: J.Kraus Design</p>
+        </div>
+        <div class="col-2 small">
+            <a href="/menu" class="nav-link">Menü</a><br>
+            <a href="/wein" class="nav-link">Wein für Daheim</a><br>
+            <a href="/catering" class="nav-link">Catering</a><br>
+            <a href="/info" class="nav-link">Öffnungszeiten & Anfahrt</a><br>
+            <a href="/contact.html" class="nav-link">Kontakt</a>
+        </div>
+        <div class="col-2 small">
+            <a href="/datenschutz" class="nav-link">Datenschutz</a><br>
+            <a href="/impressum" class="nav-link">Impressum</a>
+        </div>
+        <div class="col-2 small">
+            <a href="www.facebook.com" class="nav-link">Facebook</a><br>
+            <a href="www.instagram.com" class="nav-link">Instagram</a>
+        </div>
+    </footer>
+
+ <!--------------------- Add jQuery -------------------->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- Slick Caroussel -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- LightGallery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js"></script>
+ <!-------------- custom javascript files -------------->
+ <script src="/scripts.js"></script> 
+
+</body>
+
+</html>
