@@ -160,18 +160,18 @@ label a:hover {color: #60423e}
 .bg-eingang {background-image: url(/images/restauranteingang.jpg)}
 .bg-table {background-image: url(/images/table.jpg)}
 .bg-kueche {background-image: url(/images/restaurantkueche.jpg); min-height: 30vh;}
-.bg-cateringtisch {background-image: url(/images/cateringtisch.jpg)}
+.bg-cateringtisch {background-image: url(/images/cateringtisch.jpg); min-height: 30vh;}
 .bg-cateringhand {background-image: url(/images/cateringhand.jpg)}
 .bg-catering {background-image: url(/images/catering.jpg)}
-.bg-catering1 {background-image: url(/images/catering-1.jpg)}
-.bg-catering2 {background-image: url(/images/catering-2.jpg)}
+.bg-catering1 {background-image: url(/images/catering-1.jpg); min-height: 30vh;}
+.bg-catering2 {background-image: url(/images/catering-2.jpg); min-height: 30vh;}
 .bg-meal {background-image: url(/images/meal.jpg)}
 .bg-mealkartoffel {background-image: url(/images/mealkartoffel.jpg)}
 .bg-mealfleisch {background-image: url(/images/mealfleisch.jpg)}
 .bg-wein {background-image: url(/images/wein.jpg)}
-.bg-wein1 {background-image: url(/images/wein-1.jpg)}
-.bg-wein2 {background-image: url(/images/wein-2.jpg)}
-.bg-wein3 {background-image: url(/images/wein-3.jpg)}
+.bg-wein1 {background-image: url(/images/wein-1.jpg); min-height: 30vh;}
+.bg-wein2 {background-image: url(/images/wein-2.jpg); min-height: 30vh;}
+.bg-wein3 {background-image: url(/images/wein-3.jpg); min-height: 30vh;}
 .bg-wein5 {background-image: url(/images/wein-5.jpg)}
 .bg-map {background-image: url(/images/map.jpg)}
 .bg-draussen {background-image: url(/images/draussen.jpg);}
@@ -481,6 +481,12 @@ form button {
 .margin-t {margin-top: 0rem;}
 .margin-b {margin-bottom: 0rem;}
 .margin-r {margin-right: 0rem;}
+.heading-bg {font-size: 42px;}
+.heading {font-size: 36px;}
+p {font-size: 1.1rem;}
+.bg-catering {background-position: center;}
+.bg-eingang {background-position: center;}
+
 }
 
 @media(max-width:48em) {
@@ -490,7 +496,13 @@ form button {
 
     h1 {font-size: 6rem;}
     h1 span {font-size: 2rem;}
+    p {font-size: 1rem;}
     footer a {font-size: 1rem;}
-
-    .portrait {padding-bottom: 100%;}
+   .portrait {padding-bottom: 100%;}
+   .small {font-size: 0.7rem;}
+   .tiny {font-size: 0.7rem; padding: 0.4rem;}
+   .burger-menu a {font-size: 1.2rem;}
+   .heading {font-size: 24px;}
+   .menu-filter span {padding: 0.5rem; font-size: 1rem; line-height: 2rem;}
+   .heading-bg {font-size: 36px;}
 }
