@@ -159,10 +159,10 @@ bier:
         </div>
 
         <div class="col-12 margin-2 menu-filter" id="menu-filter">
-            <span>Speisen</span> 
-            <span>Premium Steak</span> 
-            <span>Wein</span> 
-            <span>Bier</span>
+            <span class="editable">Speisen</span> 
+            <span class="editable">Premium Steak</span> 
+            <span class="editable">Wein</span> 
+            <span class="editable">Bier</span>
         </div>
 
         <div class="col-12 filterable-menu" id="filterable-menu">
@@ -172,7 +172,7 @@ bier:
                 <!-- Column 1 -->
                 <div class="col-5_sm-12">
                     <!-- Aperitif -->
-                    <h3 class="heading-menu"> Aperitif</h3>
+                    <h3 class="heading-menu editable"> Aperitif</h3>
                     {% for item in page.aperitif %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
@@ -182,7 +182,7 @@ bier:
                     {% endfor %}
               
                     <!-- Vorspeisen -->
-                    <h3 class="heading-menu"> Vorspeisen</h3>
+                    <h3 class="heading-menu editable"> Vorspeisen</h3>
                     {% for item in page.vorspeisen %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
@@ -198,7 +198,7 @@ bier:
                 <div class="col-5_sm-12">
 
                     <!-- Hauptspeisen -->
-                    <h3 class="heading-menu"> Hauptspeisen</h3>
+                    <h3 class="heading-menu editable"> Hauptspeisen</h3>
                     {% for item in page.hauptspeisen %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
@@ -208,7 +208,7 @@ bier:
                     {% endfor %}
 
                     <!-- Dessert -->
-                    <h3 class="heading-menu"> Dessert</h3>
+                    <h3 class="heading-menu editable"> Dessert</h3>
                     {% for item in page.dessert %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
@@ -224,7 +224,7 @@ bier:
                 <!-- Column 1 -->
                 <div class="col-6_sm-12">
                     <!-- Steak -->
-                    <h3 class="heading-menu"> Steak</h3>
+                    <h3 class="heading-menu editable"> Steak</h3>
                     {% for item in page.steak %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.gericht}} </p>
@@ -242,7 +242,7 @@ bier:
             <!-- Column 1 -->
                 <div class="col-5_sm-12">
                     <!-- Weißwein -->
-                    <h3 class="heading-menu"> Weißweine</h3>
+                    <h3 class="heading-menu editable"> Weißweine</h3>
                     {% for item in page.weisswein %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
@@ -252,7 +252,7 @@ bier:
                     {% endfor %}
             
                     <!-- Rosewein -->
-                    <h3 class="heading-menu"> Roseweine</h3>
+                    <h3 class="heading-menu editable"> Roseweine</h3>
                     {% for item in page.rosewein %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
@@ -268,7 +268,7 @@ bier:
                 <div class="col-5_sm-12">
 
                     <!-- Rotweine -->
-                    <h3 class="heading-menu"> Rotweine</h3>
+                    <h3 class="heading-menu editable"> Rotweine</h3>
                     {% for item in page.rotwein %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
@@ -278,7 +278,7 @@ bier:
                     {% endfor %}
 
                     <!-- Sekt - Perlweine -->
-                    <h3 class="heading-menu"> Sekt - Perlweine</h3>
+                    <h3 class="heading-menu editable"> Sekt - Perlweine</h3>
                     {% for item in page.sekt %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
@@ -294,7 +294,7 @@ bier:
                 <!-- Column 1 -->
                 <div class="col-6_sm-12">
                     <!-- Biere -->
-                    <h3 class="heading-menu"> Fränkische Bierspezialitäten</h3>
+                    <h3 class="heading-menu editable"> Fränkische Bierspezialitäten</h3>
                     {% for item in page.bier %}
                     <div class="editable p-menu">
                         <p class="margin-0 menu-margin menu-text p-bold"> {{item.name}} </p>
@@ -307,5 +307,5 @@ bier:
             </div>        
         </div>
 
-        <p class="small"><i> Bitte fragen Sie unseren Service nach Allergenen und Yusatystoffen sowie vegetarischen Alternativen oder einer Weinempfehlung. </i></p>
+        <p class="small editable"><i> Bitte fragen Sie unseren Service nach Allergenen und Yusatystoffen sowie vegetarischen Alternativen oder einer Weinempfehlung. </i></p>
       </div>   
