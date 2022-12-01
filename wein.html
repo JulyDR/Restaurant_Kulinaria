@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Wein für Daheim
+banner-top_image: /images/wein.jpg
+banner-small_image: /images/wein-2.jpg
+textbox1_image: /images/wein-1.jpg
+textbox2_image: /images/wein-3.jpg
 weisswein:
   - name: 2017 Gutriesling - trocken (Schönleber-Blümlein, Rheingau) 
     inhalte: Dieser Wein ist frisch und fruchtig und passt eigentlich immer, auch einfach mal so.
@@ -68,7 +72,7 @@ rotwein:
     preis: -- | 8,50- €
 ---   
     <!-- Welcome Banner -->
-    <div class="bg-image bg-banner bg-wein"></div>
+    <div class="bg-image bg-banner" style="background-image:url('{{page.banner-top_image}}');"></div>
 
     <!-- Textbox-Foto Section -->
     <section class="grid padded-text">
@@ -79,7 +83,7 @@ rotwein:
             <p class="margin-1 editable">Wir beraten Sie gerne!</p>
         </div>
     
-        <div class="col-7_md-12 bg-image bg-wein1 padded margin-l margin-t" data-aos="zoom-in-up"></div>
+        <div class="col-7_md-12 bg-image bg-textbox padded margin-l margin-t" data-aos="zoom-in-up" style="background-image:url('{{page.textbox1_image}}');"></div>
     </section>
 
     <!-- Weissweine & Perlweine -->
@@ -99,7 +103,7 @@ rotwein:
     </div>
 
     <!-- Trenn Banner -->
-    <div class="bg-image bg-banner bg-wein2"></div>
+    <div class="bg-image bg-banner" style="background-image:url('{{page.banner-small_image}}');""></div>
   
     
     <!-- Rotweine & Roseweine -->
@@ -120,7 +124,7 @@ rotwein:
 
     <!--  Foto - Textbox Section -->
     <section class="grid light padded-text">
-        <div class="col-7_md-12 bg-image bg-wein3 padded margin-2" data-aos="zoom-in-up"></div>
+        <div class="col-7_md-12 bg-image bg-textbox padded margin-2" data-aos="zoom-in-up" style="background-image:url('{{page.textbox2_image}}');"></div>
     
         <div class="col-5_md-12-middle white padded margin-l margin-t" data-aos="zoom-in-up">
             <h2 class="heading editable">Haben Sie Appetit bekommen?</h2>

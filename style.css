@@ -146,25 +146,10 @@ a:hover {color: #998685;}
 .landscape {min-height: 100vh;}
 .bg-padded {padding-bottom: 30%;}
 
-.bg-restaurant {background-image: url(/images/restaurant.jpg);}
-.bg-eingang {background-image: url(/images/restauranteingang.jpg)}
-.bg-table {background-image: url(/images/table.jpg)}
-.bg-kueche {background-image: url(/images/restaurantkueche.jpg); min-height: 30vh;}
-.bg-cateringtisch {background-image: url(/images/cateringtisch.jpg); min-height: 30vh;}
-.bg-cateringhand {background-image: url(/images/cateringhand.jpg)}
-.bg-catering {background-image: url(/images/catering.jpg)}
-.bg-catering1 {background-image: url(/images/catering-1.jpg); min-height: 30vh;}
-.bg-catering2 {background-image: url(/images/catering-2.jpg); min-height: 30vh;}
-.bg-meal {background-image: url(/images/meal.jpg)}
-.bg-mealkartoffel {background-image: url(/images/mealkartoffel.jpg)}
-.bg-mealfleisch {background-image: url(/images/mealfleisch.jpg)}
-.bg-wein {background-image: url(/images/wein.jpg)}
-.bg-wein1 {background-image: url(/images/wein-1.jpg); min-height: 30vh;}
-.bg-wein2 {background-image: url(/images/wein-2.jpg); min-height: 30vh;}
-.bg-wein3 {background-image: url(/images/wein-3.jpg); min-height: 30vh;}
-.bg-wein5 {background-image: url(/images/wein-5.jpg)}
+.bg-textbox {min-height: 30vh;}
+
 .bg-map {background-image: url(/images/map.jpg)}
-.bg-draussen {background-image: url(/images/draussen.jpg);}
+
 
 .gallery [class*="col-"] {padding: 0.2%;}
 

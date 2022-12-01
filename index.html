@@ -5,6 +5,11 @@ banner1_image: /images/restaurant.jpg
 banner2_image: /images/cateringhand.jpg
 banner3_image: /images/table.jpg
 banner4_image: /images/wein.jpg
+textbox1_image: /images/restaurantkueche.jpg
+textbox2_image: /images/cateringtisch.jpg
+gallery1_image: /images/meal.jpg
+gallery2_image: /images/mealkartoffel.jpg
+gallery3_image: /images/mealfleisch.jpg
 ---
 
     <!-- Welcome Banner -->
@@ -39,7 +44,7 @@ banner4_image: /images/wein.jpg
 
     <!--  Foto - Textbox Section -->
     <section class="grid padded-text">
-        <div class="col-7_md-12 bg-image bg-kueche padded margin-2" data-aos="zoom-in-up"></div>
+        <div class="col-7_md-12 bg-image bg-textbox padded margin-2" data-aos="zoom-in-up"  style="background-image:url('{{page.textbox1_image}}');"></div>
 
         <div class="col-5_md-12-middle padded dark light-text margin-l margin-t" data-aos="zoom-in-up">
             <h2 class="heading editable">Frische, kreative, leckere Speisen</h2>
@@ -68,7 +73,7 @@ banner4_image: /images/wein.jpg
             <a href="/info.html" class="button-dark"> Unsere Öffnungszeiten </a>
         </div>
 
-        <div class="col-7_md-12 bg-image bg-cateringtisch padded margin-l margin-t" data-aos="zoom-in-up"></div>
+        <div class="col-7_md-12 bg-image bg-textbox padded margin-l margin-t" data-aos="zoom-in-up" style="background-image:url('{{page.textbox2_image}}');"></div>
     </section>
 
     <!-- Dark Text Section -->
@@ -89,10 +94,10 @@ banner4_image: /images/wein.jpg
     <!-- Image Gallery -->
     <div class="gallery grid padded-text margin-0 mob-hide">
         <div class="col-6_sm-12 padded-sm">
-            <div class="bg-image landscape-normal margin-05 bg-meal"></div>
-            <div class="bg-image landscape-normal bg-mealkartoffel"></div>
+            <div class="bg-image landscape-normal margin-05" style="background-image:url('{{page.gallery1_image}}');"></div>
+            <div class="bg-image landscape-normal" style="background-image:url('{{page.gallery2_image}}');"></div>
         </div>
         <div class="col-6_sm-12 padded-sm">
-            <div class="bg-image portrait bg-mealfleisch"></div>
+            <div class="bg-image portrait" style="background-image:url('{{page.gallery3_image}}');"></div>
         </div>
     </div>

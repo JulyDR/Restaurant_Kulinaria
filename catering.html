@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Catering
+banner-top_image: /images/catering.jpg
+textbox1_image: /images/catering-1.jpg
+textbox2_image: /images/catering-2.jpg
 suppe:
   - name: Kürbiscremesuppe und Brotcroutons
   - name: Blumenkohlcremesuppe mit Macadamianuss und gebratener Blutwurst
@@ -28,7 +31,7 @@ suppe:
   - name: Chili con Carne
 ---   
     <!-- Welcome Banner -->
-    <div class="bg-image bg-banner bg-catering position"></div>
+    <div class="bg-image bg-banner position" style="background-image:url('{{page.banner-top_image}}');"></div>
 
     <!-- Textbox-Foto Section -->
     <section class="grid padded-text">
@@ -38,7 +41,7 @@ suppe:
             <p class="margin-1 editable">Gerne bereiten wir Ihnen ein individuelles Angebot.</p>
         </div>
     
-        <div class="col-7_md-12 bg-image bg-catering1 padded margin-l margin-t" data-aos="zoom-in-up"></div>
+        <div class="col-7_md-12 bg-image bg-textbox padded margin-l margin-t" data-aos="zoom-in-up" style="background-image:url('{{page.textbox1_image}}');"></div>
     </section>
 
     <!-- Suppenkueche -->
@@ -57,7 +60,7 @@ suppe:
 
     <!--  Foto - Textbox Section -->
     <section class="grid padded-text">
-        <div class="col-7_md-12 bg-image bg-catering2 padded margin-2" data-aos="zoom-in-up"></div>
+        <div class="col-7_md-12 bg-image bg-textbox padded margin-2" data-aos="zoom-in-up" style="background-image:url('{{page.textbox2_image}}');"></div>
     
         <div class="col-5_md-12-middle light padded margin-l margin-t" data-aos="zoom-in-up">
             <h2 class="heading editable">Für den besonderen Anlass.</h2>
