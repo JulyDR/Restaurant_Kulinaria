@@ -35,7 +35,6 @@ html {scroll-behavior: smooth;}
 .margin-3 {margin-bottom: 3rem;}
 .margin-l {margin-left: -2rem;}
 .margin-t {margin-top: 2rem;}
-.margin-b {margin-bottom: 2rem;}
 .margin-r {margin-right: 2rem;}
 .margin-l-small {margin-left: 2.5rem;}
 
@@ -52,29 +51,16 @@ body {
   letter-spacing: -0.2px;
 }
 
-p {
-  font-weight: 400;
-  line-height: 1.5em;
-  font-size: 1.2rem;
-}
-
 .heading {
   font-family: 'PT Serif', serif;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 12px;
-  font-size: 42px;
+  margin-bottom: 0.75rem;
+  font-size: 2.5rem;
   line-height: 1.3em;
 } 
 
-.heading-bg {
-  font-family: 'PT Serif', serif;
-  font-style: italic;
-  font-weight: 400;
-  margin-bottom: 12px;
-  font-size: 60px;
-  line-height: 1.3em;
-} 
+.big { font-size: 3.75rem;} 
 
 .heading-menu {
   font-family: 'PT Serif', serif;
@@ -85,26 +71,29 @@ p {
   color: #60423e;
 } 
 
+p {
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 1.2rem;
+}
+
 .p-menu {
   margin-left: 1rem;
   margin-bottom: 2rem;
 }
 
 .p-bold {font-weight: 700;}
-
+.small {font-size: 1rem;}
 
 .light-text {color: #fff}
+.opacity {opacity: 0.7;}
 
 .right {text-align: right;}
 .center {text-align: center;}
 
-.small {font-size: 1rem;}
-
 a:hover {color: #998685;}
 
-label a {color: inherit}
-label a:hover {color: #60423e}
-
+/* Button */
 .button-white {
   text-decoration: none;
   background-color: white;
@@ -135,6 +124,7 @@ label a:hover {color: #60423e}
   border: 2px solid #998685; 
   color: white}
 
+
 /* Background Image Styles */
 .bg-image {
   background-size: cover;
@@ -143,10 +133,10 @@ label a:hover {color: #60423e}
   background-repeat: no-repeat;
 }
 
-.bg-banner {min-height: 40vh;}
 .position {background-position: 0px -620px;}
 .position-2 {background-position: 0px -450px;}
 
+.bg-banner {min-height: 40vh;}
 .portrait-tall {padding-bottom: 175%;}
 .portrait {padding-bottom: 133%;}
 .square {padding-bottom: 100%;}
@@ -444,7 +434,7 @@ form button {
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #60423e;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -477,16 +467,15 @@ form button {
 .mob-show {display: none;}
 
 @media(max-width:64em) {
+p {font-size: 1.1rem;}
 .margin-l {margin-left: 0rem;}
 .margin-t {margin-top: 0rem;}
-.margin-b {margin-bottom: 0rem;}
+.margin-2 {margin-bottom: 0rem;}
 .margin-r {margin-right: 0rem;}
-.heading-bg {font-size: 42px;}
-.heading {font-size: 36px;}
-p {font-size: 1.1rem;}
+.big {font-size: 2.6rem;}
+.heading {font-size: 2.25rem;}
 .bg-catering {background-position: center;}
 .bg-eingang {background-position: center;}
-
 }
 
 @media(max-width:48em) {
