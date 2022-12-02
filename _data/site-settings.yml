@@ -9,8 +9,8 @@ social:
   instagram_username:
   facebook_url:
 design:
-  dark: '#60423e'
-  soft: '#998685'
-  light: '#ad9e9c'
-  white: '#fff'
+  dark_color: '#60423e'
+  soft_color: '#998685'
+  light_color: '#ad9e9c'
+  white_color: '#fff'
 
