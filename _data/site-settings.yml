@@ -2,15 +2,9 @@ seo:
   site_name: Kulinaria - Bistro & Restaurant & Catering
   title: Kulinaria - Bistro & Restaurant & Catering
   description: Restaurant & Catering mit frisch zubereiteten Speisen.
-  keywords: Wechselnde Speisekarte, frische Zutaten, Westerwald, 
-  social_image:
+  keywords: Wechselnde Speisekarte, frische Zutaten, Westerwald,
+  social_image: /images/logo.jpg
   author: Kulinaria, André Champaert
 social:
   instagram_username:
   facebook_url:
-design:
-  dark: '#60423e'
-  soft: '#998685'
-  light: '#ad9e9c'
-  white: '#fff'
-
