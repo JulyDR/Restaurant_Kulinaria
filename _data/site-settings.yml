@@ -8,7 +8,9 @@ seo:
 social:
   instagram_username:
   facebook_url:
-
-
-
+design:
+  dark: '#60423e'
+  soft: '#998685'
+  light: '#ad9e9c'
+  white: '#fff'
 

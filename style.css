@@ -12,10 +12,6 @@ img { max-width: 100%; }
 html {scroll-behavior: smooth;}
 
 :root {
-  --dark: #60423e;
-  --soft: #998685;
-  --light: #ad9e9c;
-  --white: #fff;
   --serif: 'PT Serif', serif;
   --sanserif: 'Inter', sans-serif;
 }
